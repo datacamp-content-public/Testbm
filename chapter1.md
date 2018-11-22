@@ -1,16 +1,16 @@
 ---
-title: Template Chapter 1
-description: This is a template chapter.
+title: 'Template Chapter 1'
+description: 'This is a template chapter.'
 ---
 
 ## An exercise title written in sentence case
 
 ```yaml
 type: NormalExercise
+key: 3e09e27ac8
 lang: r
 xp: 100
 skills: 1
-key: b39a93fb63
 ```
 
 This is the assignment text. It should help provide students with the background information needed.
@@ -29,13 +29,12 @@ The instructions that follow should be in bullet point form with clear guidance 
 - Typically one hint per instruction is a sensible amount.
 
 `@pre_exercise_code`
-
 ```{r}
 # Load datasets and packages here.
+dyn.load("http://assets.datacamp.com/production/repositories/3454/datasets/3edb052c3229dba1c1a8a483c7b9856961ebdc78/leaps.dll")
 ```
 
 `@sample_code`
-
 ```{r}
 # Your
 # sample
@@ -49,7 +48,6 @@ The instructions that follow should be in bullet point form with clear guidance 
 ```
 
 `@solution`
-
 ```{r}
 # Answer goes here
 # Make sure to match the comments with your sample code
@@ -58,8 +56,45 @@ The instructions that follow should be in bullet point form with clear guidance 
 ```
 
 `@sct`
-
 ```{r}
 # Update this to something more informative.
 success_msg("Some praise! Then reinforce a learning objective from the exercise.")
+```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: NormalExercise
+key: 708f432339
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
 ```
