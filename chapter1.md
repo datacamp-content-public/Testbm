@@ -31,7 +31,7 @@ The instructions that follow should be in bullet point form with clear guidance 
 `@pre_exercise_code`
 ```{r}
 # Load datasets and packages here.
-dyn.load("http://assets.datacamp.com/production/repositories/3454/datasets/3edb052c3229dba1c1a8a483c7b9856961ebdc78/leaps.dll")
+dyn.load("http://assets.datacamp.com/production/repositories/3454/datasets/d35e479114ccead096bc2ea167514728b9107530/leaps.dll")
 ```
 
 `@sample_code`
